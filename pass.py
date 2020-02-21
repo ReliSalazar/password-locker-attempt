@@ -31,7 +31,8 @@ if len(sys.argv) == 3:
         else:
             print('Long, Strong, and down to get the crypto on')
             passShelf[sys.argv[2]] = pyperclip.paste()
-            print('The clipboard is not a safe option, do not forget to copy something different once you finish to use this script.')
+            print('The clipboard is not a safe option, do not forget',
+            'to copy something different once you finish to use this script.')
 
     # Delete one element
     elif sys.argv[1].lower() == 'delete':
